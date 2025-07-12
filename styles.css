@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h1 {
+  width: 70%;
+  border-radius: 50px;
+  background-color: #56cfbc ;
+  margin: 0px auto;
+  text-align: center;
+  border: 3px solid #10464b;
+  color:#10464b;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+p{
+   font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+section{
+  width: 70%;
+  margin: 30px auto;
+  background-color: #10464b;
+  display: flow-root;
+  padding: 30px 0px;
+}
+article{
+  border: 3px solid #56cfbc;
+  width: calc(100% / 3 - 6px - 60px) ;
+  margin: 0px 30px ;
+  float: left;
+  background-color:white;
+  text-align: center;
+  border-radius: 20px;
+}
+article > img{
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+footer{
+  display: flow-root;
+  background-color:#f38b2f ;
+  padding: 10px 0px;
+  background:  #10464B;
+background: linear-gradient(90deg,rgba(16, 70, 75, 1) 19%, rgba(86, 207, 188, 1) 49%, rgba(243, 139, 47, 1) 76%);
+}
+footer > p {
+  border: 2px solid white;
+  width: 40%;
+  height: 30px;
+  border-radius: 20px;
+  float: left;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 24px;
+}
+footer > a {
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: white;
+  margin: 20px;
+  border: 2px solid white;
+}
+footer > a:hover{
+  background-color: #56cfbc;
+ 
+}
+.last{
+  margin-right: 10%;
+}
+
+footer > a > i {
+  padding: 7px 0px;
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 22px;
+  color: #f38b2f;
+}
+footer > a > i:hover {
+  color: white;
+}
+article > a > button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #f38b2f;
+  border: 1px solid #56cfbc;
+  border-radius: 40px;
+  cursor: pointer;
+}
+article > a > button:hover {
+  box-shadow: -1px 4px 15px 16px rgba(92,92,92,0.75);
+   background:  #10464B;
+background: linear-gradient(90deg,rgba(16, 70, 75, 1) 19%, rgba(86, 207, 188, 1) 49%, rgba(243, 139, 47, 1) 76%);
+}
+article > a {
+  text-decoration: none;
+}
+body{
+  margin: 0;
+  background: radial-gradient(circle at top,transparent 19%, #D4EFDF 20% ,#D4EFDF 25% , transparent 26%), radial-gradient(circle at bottom,transparent 19%, #D4EFDF 20% ,#D4EFDF 25% , transparent 26%), radial-gradient(circle at right,transparent 19%, #D4EFDF 20% ,#D4EFDF 25% , transparent 26%), radial-gradient(circle at left,transparent 19%, #D4EFDF 20% ,#D4EFDF 25% , transparent 26%);
+        background-size: 3em 3em;
+        background-color: #ffffff;
+        opacity: 0.95
+}
